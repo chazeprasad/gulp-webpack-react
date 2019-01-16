@@ -1,0 +1,17 @@
+@import '../../sass/variable';
+
+.AboutPage {
+  
+  ul.list-group {
+    
+    li {
+      border-color: #d2d1d1;
+    }
+
+    
+
+    li:nth-child(odd) {
+      background: #fdfdfd;
+    }
+  }
+}
