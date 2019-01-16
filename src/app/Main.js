@@ -8,3 +8,5 @@ import routes from './AppRouting';
 render(<Router history={browserHistory} routes={routes} />, document.getElementById('app'));
 
 module.hot.accept();
+
+

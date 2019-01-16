@@ -5,8 +5,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: '/src/app/Main.js',
-//   mode: 'development',
+  // entry: '/src/app/Main.js',
+  entry: {
+    main: './src/app/Main.js'
+  },
+  mode: 'development',
   module: {
     rules: [
       {

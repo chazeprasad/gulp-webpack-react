@@ -5,8 +5,9 @@ var WebpackDevServer = require("webpack-dev-server");
 var webpackConfig = require("../../webpack.config.js");  
 
 // modify some webpack config options
-var myDevConfig = Object.create(webpackConfig);
+var myDevConfig = Object.assign(webpackConfig);
 myDevConfig.devtool = "sourcemap";
+
 // myDevConfig.debug = true;
 
 // create a single instance of the compiler to allow caching
